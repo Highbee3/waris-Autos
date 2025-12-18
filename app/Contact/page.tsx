@@ -32,13 +32,13 @@ export default function Contact() {
           <div className="space-y-5">
             <div className="flex items-center gap-4">
               <FaPhoneAlt className="text-blue-400 text-xl" />
-              <span className="text-gray-300 text-lg">+234 812 345 6789</span>
+              <span className="text-gray-300 text-lg">+234 806 535 1087</span>
             </div>
 
             <div className="flex items-center gap-4">
               <FaEnvelope className="text-blue-400 text-xl" />
               <span className="text-gray-300 text-lg">
-                info@yourcompany.com
+                ibrahimademola145@gmail.com
               </span>
             </div>
 

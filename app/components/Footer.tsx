@@ -57,11 +57,11 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-2 hover:text-amber-400 transition">
               <FaPhone size={16} className="text-amber-400" />
-              +234 810 234 5678
+              +234 806 535 1087
             </li>
             <li className="flex items-center gap-2 hover:text-amber-400 transition">
               <FaEnvelope size={16} className="text-amber-400" />
-              support@warisauto.com
+            ibrahimademola145@gmail.com
             </li>
           </ul>
         </div>

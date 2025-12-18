@@ -41,7 +41,7 @@ export default function CarsPage() {
 
       {/* FILTER BUTTONS */}
       <div className="flex justify-center gap-4 py-10">
-        {["All", "Lexus", "Toyota", "Sports"].map((btn) => (
+        {["All", "Lexus", "Toyota", "Hyundai"].map((btn) => (
           <button
             key={btn}
             onClick={() => setFilter(btn)}
@@ -65,10 +65,10 @@ export default function CarsPage() {
             className="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden"
           >
             <Image
-              src={car.img}
+            src={car.images?.[0] ?? "/fallback.jpg"}
               alt={car.name}
               width={400}
-              height={250}
+              height={600}
               className="w-full h-56 object-cover"
             />
 
